@@ -1,8 +1,7 @@
 package com.spencer.springdemo;
 
+import com.spencer.springdemo.core.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.awt.*;
 
 public class AnnotationBeanScopeDemoApp {
 

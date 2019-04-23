@@ -1,5 +1,6 @@
-package com.spencer.springdemo;
+package com.spencer.springdemo.core;
 
+import com.spencer.springdemo.core.Coach;
 import org.springframework.stereotype.Component;
 
 @Component

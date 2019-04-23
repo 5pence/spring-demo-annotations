@@ -1,5 +1,6 @@
 package com.spencer.springdemo;
 
+import com.spencer.springdemo.core.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AnnotationDemoApp {

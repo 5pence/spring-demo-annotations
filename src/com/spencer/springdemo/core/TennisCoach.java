@@ -1,5 +1,6 @@
-package com.spencer.springdemo;
+package com.spencer.springdemo.core;
 
+import com.spencer.springdemo.core.Coach;
 import com.spencer.springdemo.service.FortuneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -9,17 +10,29 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 @Component
-public class SwimCoach implements Coach {
+public class TennisCoach implements Coach {
 
+    @Autowired
+    @Qualifier("fileFortuneService")
     private FortuneService fortuneService;
 
-    public SwimCoach(@Qualifier("sadFortuneService") FortuneService fortuneService) {
-        this.fortuneService = fortuneService;
+    public TennisCoach() {
+        System.out.println("inside default tennisCoach constructor");
+    }
+
+    @PostConstruct
+    void init() {
+        System.out.println("inside do my startup stuff");
+    }
+
+    @PreDestroy
+    void preDestroy() {
+        System.out.println("inside preDestroy");
     }
 
     @Override
     public String getDailyWorkout() {
-        return "Practice butterfly stroke for 20 lengths";
+        return "Practice fast serves and backhand volley";
     }
 
     @Override

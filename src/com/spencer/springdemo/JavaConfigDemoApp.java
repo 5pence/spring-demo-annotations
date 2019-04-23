@@ -1,6 +1,6 @@
 package com.spencer.springdemo;
 
-import com.spencer.springdemo.Coach;
+import com.spencer.springdemo.core.Coach;
 import com.spencer.springdemo.config.SportConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
