@@ -1,5 +1,6 @@
-package com.spencer.springdemo;
+package com.spencer.springdemo.service;
 
+import com.spencer.springdemo.service.FortuneService;
 import org.springframework.stereotype.Component;
 
 @Component
