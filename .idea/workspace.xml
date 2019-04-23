@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2c41127-3db3-4278-9f40-d0d456df6cf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/properties/sport.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/DartsJavaConfigApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/config/DartsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/core/DartsCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/service/LoveFortuneService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spencer/springdemo/AnnotationBeanScopeDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/AnnotationBeanScopeDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spencer/springdemo/AnnotationDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/AnnotationDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spencer/springdemo/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/core/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spencer/springdemo/GolfCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/core/GolfCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spencer/springdemo/JavaConfigDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/JavaConfigDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spencer/springdemo/SwimCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/core/SwimCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spencer/springdemo/SwimJavaConfigDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/SwimJavaConfigDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spencer/springdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/core/TennisCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spencer/springdemo/config/SportConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/config/SportConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/spencer/springdemo/fortune.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spencer/springdemo/properties/fortune.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/core/SwimCoach.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="616">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#416#430#1" expanded="true" />
@@ -41,6 +34,22 @@
                 <element signature="e#885#886#0" expanded="true" />
                 <element signature="e#916#917#0" expanded="true" />
                 <element signature="e#943#944#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/core/DartsCoach.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,13 +68,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/SwimJavaConfigDemoApp.java">
+        <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/config/DartsConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="418">
+              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/DartsJavaConfigApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/service/LoveFortuneService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -121,6 +153,10 @@
         <option value="$PROJECT_DIR$/src/com/spencer/springdemo/config/SportConfig.java" />
         <option value="$PROJECT_DIR$/src/com/spencer/springdemo/core/SwimCoach.java" />
         <option value="$PROJECT_DIR$/src/com/spencer/springdemo/SwimJavaConfigDemoApp.java" />
+        <option value="$PROJECT_DIR$/src/com/spencer/springdemo/service/LoveFortuneService.java" />
+        <option value="$PROJECT_DIR$/src/com/spencer/springdemo/config/DartsConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/spencer/springdemo/DartsJavaConfigApp.java" />
+        <option value="$PROJECT_DIR$/src/com/spencer/springdemo/core/DartsCoach.java" />
       </list>
     </option>
   </component>
@@ -221,6 +257,15 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="spencer" type="462c0819:PsiDirectoryNode" />
               <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-demo-annotations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-demo-annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spencer" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
               <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -257,8 +302,8 @@
       <recent name="C:\code\JavaCourse\spring-demo-annotations\src\com\spencer\springdemo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.spencer.springdemo" />
       <recent name="com.spencer.springdemo.service" />
+      <recent name="com.spencer.springdemo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\code\JavaCourse\spring-demo-annotations\lib" />
@@ -278,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SwimJavaConfigDemoApp">
+  <component name="RunManager" selected="Application.DartsJavaConfigApp">
     <configuration name="AnnotationBeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spencer.springdemo.AnnotationBeanScopeDemoApp" />
       <module name="spring-demo-annotations" />
@@ -298,6 +343,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spencer.springdemo.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DartsJavaConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spencer.springdemo.DartsJavaConfigApp" />
+      <module name="spring-demo-annotations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spencer.springdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,6 +412,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DartsJavaConfigApp" />
         <item itemvalue="Application.SwimJavaConfigDemoApp" />
         <item itemvalue="Application.JavaConfigDemoApp" />
         <item itemvalue="Application.AnnotationDemoApp" />
@@ -371,12 +430,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555973071820</updated>
-      <workItem from="1555973077743" duration="18733000" />
+      <workItem from="1555973077743" duration="20883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18733000" />
+    <option name="totallyTimeSpent" value="20883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1734" height="1407" extended-state="0" />
@@ -388,11 +447,11 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970132" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24970132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.32967034" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32967034" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32967034" />
@@ -401,7 +460,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -511,23 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/JavaConfigDemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/properties/sport.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/core.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -570,16 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/config/SportConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/AnnotationDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -590,10 +622,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/SwimJavaConfigDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/properties/sport.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/JavaConfigDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/DartsJavaConfigApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/config/SportConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/core/SwimCoach.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#416#430#1" expanded="true" />
@@ -606,12 +682,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/SwimJavaConfigDemoApp.java">
+    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/core/DartsCoach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="264">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/service/LoveFortuneService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spencer/springdemo/config/DartsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
           </folding>
         </state>
       </provider>
