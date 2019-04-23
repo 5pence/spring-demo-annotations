@@ -1,16 +1,18 @@
 package com.spencer.springdemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class TennisCoach implements Coach {
 
+    @Autowired
+    @Qualifier("happyFortuneService")
     private FortuneService fortuneService;
 
-    @Autowired
-    public TennisCoach(FortuneService fortuneService) {
-        this.fortuneService = fortuneService;
+    public TennisCoach() {
+        System.out.println("inside default tennisCoach constructor");
     }
 
     @Override
@@ -22,4 +24,5 @@ public class TennisCoach implements Coach {
     public String getDailyfortune() {
         return fortuneService.getFortune();
     }
+
 }
