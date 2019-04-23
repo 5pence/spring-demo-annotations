@@ -2,11 +2,12 @@ package com.spencer.springdemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 @Component
-@Scope("prototype")
 public class TennisCoach implements Coach {
 
     @Autowired
@@ -15,6 +16,16 @@ public class TennisCoach implements Coach {
 
     public TennisCoach() {
         System.out.println("inside default tennisCoach constructor");
+    }
+
+    @PostConstruct
+    void init() {
+        System.out.println("inside do my startup stuff");
+    }
+
+    @PreDestroy
+    void preDestroy() {
+        System.out.println("inside preDestroy");
     }
 
     @Override
